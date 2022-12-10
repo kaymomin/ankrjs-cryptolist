@@ -5,7 +5,7 @@ const provider = new AnkrscanProvider('');
 
 //defining the list of supported blockchains
 const listOfChains: Blockchain[] = ['eth', 'arbitrum', 'avalanche', 
-'bsc', 'fantom', 'polygon', ];
+'bsc', 'fantom', 'polygon', 'syscoin', 'optimism',];
 
 //key-value pair mapping of chains to their native symbols
 export const chainsToNativeSymbols: { [key in Blockchain]: string } = {
